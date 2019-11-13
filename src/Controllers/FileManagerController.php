@@ -366,9 +366,9 @@ class FileManagerController extends Controller
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function ckeditor()
+    public function media()
     {
-        return view('file-manager::ckeditor');
+        return view('file-manager::media');
     }
 
     /**

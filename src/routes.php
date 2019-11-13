@@ -77,9 +77,9 @@ Route::group([
     // Route::get('properties', 'FileManagerController@properties');
 
     // Integration with editors
-    Route::get('ckeditor', 'FileManagerController@ckeditor')
-        ->name('fm.ckeditor');
-
+    Route::get('media', 'FileManagerController@media')
+        ->name('fm.media');
+    /*
     Route::get('tinymce', 'FileManagerController@tinymce')
         ->name('fm.tinymce');
 
@@ -90,5 +90,5 @@ Route::group([
         ->name('fm.summernote');
 
     Route::get('fm-button', 'FileManagerController@fmButton')
-        ->name('fm.fm-button');
+        ->name('fm.fm-button');*/
 });

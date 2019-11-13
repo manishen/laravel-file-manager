@@ -3,6 +3,7 @@
 namespace Alexusmai\LaravelFileManager\Traits;
 
 use Alexusmai\LaravelFileManager\Services\ACLService\ACL;
+use Illuminate\Support\Arr;
 use Storage;
 
 trait ContentTrait
@@ -154,13 +155,13 @@ trait ContentTrait
     protected function filterDir($disk, $content)
     {
         // select only dir
-        $dirsList = array_where($content, function ($item) {
+        $dirsList = Arr::where($content, function ($item) {
             return $item['type'] === 'dir';
         });
 
         // remove 'filename' param
         $dirs = array_map(function ($item) {
-            return array_except($item, ['filename']);
+            return Arr::except($item, ['filename']);
         }, $dirsList);
 
         // if ACL ON
@@ -182,7 +183,7 @@ trait ContentTrait
     protected function filterFile($disk, $content)
     {
         // select only files
-        $files = array_where($content, function ($item) {
+        $files = Arr::where($content, function ($item) {
             return $item['type'] === 'file';
         });
 

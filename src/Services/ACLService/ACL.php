@@ -4,6 +4,7 @@ namespace Alexusmai\LaravelFileManager\Services\ACLService;
 
 use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Cache;
+use Illuminate\Support\Arr;
 
 class ACL
 {
@@ -66,7 +67,7 @@ class ACL
      */
     protected function rulesForDisk($disk)
     {
-        return array_where($this->rulesList(),
+        return Arr::where($this->rulesList(),
             function ($value) use ($disk) {
                 return $value['disk'] === $disk;
             });
