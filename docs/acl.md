@@ -37,7 +37,7 @@ Open configuration file - config/file-manager.php
     *
     * default - config file(ConfigACLRepository)
     */
-   'aclRepository' => \Alexusmai\LaravelFileManager\Services\ACLService\ConfigACLRepository::class,
+   'aclRepository' => \Manishen\LaravelFileManager\Services\ACLService\ConfigACLRepository::class,
    ```
    
    Now you can add your rules in 'aclRules' array. But if you want to store your rules in another place, such as a database, you need to create your own class, and implements two functions from ACLRepository.
@@ -114,7 +114,7 @@ I add this disk to file-manager config file
 
 namespace App\Http;
 
-use Alexusmai\LaravelFileManager\Services\ACLService\ACLRepository;
+use Manishen\LaravelFileManager\Services\ACLService\ACLRepository;
 
 class UsersACLRepository implements ACLRepository
 {

@@ -1,7 +1,7 @@
 <?php
 
-use Alexusmai\LaravelFileManager\Services\ConfigService\DefaultConfigRepository;
-use Alexusmai\LaravelFileManager\Services\ACLService\ConfigACLRepository;
+use Manishen\LaravelFileManager\Services\ConfigService\DefaultConfigRepository;
+use Manishen\LaravelFileManager\Services\ACLService\ConfigACLRepository;
 
 return [
 

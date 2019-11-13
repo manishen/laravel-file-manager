@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Services;
+namespace Manishen\LaravelFileManager\Services;
 
 use Illuminate\Http\Request;
 use RecursiveIteratorIterator;

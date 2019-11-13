@@ -84,7 +84,7 @@ Create new class - example - TestConfigRepository
 ```php
 namespace App\Http;
 
-use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Manishen\LaravelFileManager\Services\ConfigService\ConfigRepository;
 
 class TestConfigRepository implements ConfigRepository
 {

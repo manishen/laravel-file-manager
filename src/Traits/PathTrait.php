@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Traits;
+namespace Manishen\LaravelFileManager\Traits;
 
 trait PathTrait
 {

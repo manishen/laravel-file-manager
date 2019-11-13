@@ -1,22 +1,22 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Controllers;
+namespace Manishen\LaravelFileManager\Controllers;
 
-use Alexusmai\LaravelFileManager\Events\Deleting;
-use Alexusmai\LaravelFileManager\Events\DirectoryCreated;
-use Alexusmai\LaravelFileManager\Events\DirectoryCreating;
-use Alexusmai\LaravelFileManager\Events\DiskSelected;
-use Alexusmai\LaravelFileManager\Events\Download;
-use Alexusmai\LaravelFileManager\Events\FileCreated;
-use Alexusmai\LaravelFileManager\Events\FileCreating;
-use Alexusmai\LaravelFileManager\Events\FilesUploaded;
-use Alexusmai\LaravelFileManager\Events\FilesUploading;
-use Alexusmai\LaravelFileManager\Events\FileUpdate;
-use Alexusmai\LaravelFileManager\Events\Paste;
-use Alexusmai\LaravelFileManager\Events\Rename;
-use Alexusmai\LaravelFileManager\Requests\RequestValidator;
-use Alexusmai\LaravelFileManager\FileManager;
-use Alexusmai\LaravelFileManager\Services\Zip;
+use Manishen\LaravelFileManager\Events\Deleting;
+use Manishen\LaravelFileManager\Events\DirectoryCreated;
+use Manishen\LaravelFileManager\Events\DirectoryCreating;
+use Manishen\LaravelFileManager\Events\DiskSelected;
+use Manishen\LaravelFileManager\Events\Download;
+use Manishen\LaravelFileManager\Events\FileCreated;
+use Manishen\LaravelFileManager\Events\FileCreating;
+use Manishen\LaravelFileManager\Events\FilesUploaded;
+use Manishen\LaravelFileManager\Events\FilesUploading;
+use Manishen\LaravelFileManager\Events\FileUpdate;
+use Manishen\LaravelFileManager\Events\Paste;
+use Manishen\LaravelFileManager\Events\Rename;
+use Manishen\LaravelFileManager\Requests\RequestValidator;
+use Manishen\LaravelFileManager\FileManager;
+use Manishen\LaravelFileManager\Services\Zip;
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 

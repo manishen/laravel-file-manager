@@ -1,11 +1,11 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Services\ConfigService;
+namespace Manishen\LaravelFileManager\Services\ConfigService;
 
 /**
  * Class DefaultConfigRepository
  *
- * @package Alexusmai\LaravelFileManager\Services\ConfigService
+ * @package Manishen\LaravelFileManager\Services\ConfigService
  */
 class DefaultConfigRepository implements ConfigRepository
 {

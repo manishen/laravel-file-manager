@@ -1,10 +1,10 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Middleware;
+namespace Manishen\LaravelFileManager\Middleware;
 
-use Alexusmai\LaravelFileManager\Services\ACLService\ACL;
-use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
-use Alexusmai\LaravelFileManager\Traits\PathTrait;
+use Manishen\LaravelFileManager\Services\ACLService\ACL;
+use Manishen\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Manishen\LaravelFileManager\Traits\PathTrait;
 use Closure;
 
 class FileManagerACL
